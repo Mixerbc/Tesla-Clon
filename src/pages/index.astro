@@ -1,0 +1,48 @@
+---
+import Layout from '../layouts/Layout.astro';
+import HeaderLanding from "../components/HeaderLanding.astro"
+import FirstSection from "../components/FirstSection.astro"
+import Model3 from "../components/Modelo3.astro"
+import ModelS from "../components/ModeloS.astro"
+import ModelY from "../components/ModeloY.astro"
+import ModelX from '../components/ModeloX.astro'
+import Powerwall from "../components/Powerwall.astro"
+import Accesorios from  "../components/Accesorios.astro"
+
+---
+
+<Layout title="Welcome to Astro.">
+	
+		
+		<HeaderLanding/>
+<main class="snap-y snap-mandatory relative w-full h-screen overflow-auto scroll-smooth">
+
+	<div class="snap-center">
+		<FirstSection/>
+	</div>
+	<div class="snap-center">
+		<Model3/>
+	</div>
+	<div class="snap-center">
+		<ModelY/>
+	</div>
+	<div class="snap-center">
+		<ModelS/>
+	</div>
+	<div class="snap-center">
+		<ModelX/>
+	</div>
+	<div class="snap-center">
+		<Powerwall/>
+	</div>
+	<div class="snap-center">
+		<Accesorios/>
+	</div>
+
+	</main>
+	<script>
+
+	</script>
+	
+</Layout>
+
